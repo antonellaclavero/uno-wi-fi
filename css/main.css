@@ -5,17 +5,59 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 /*layout*/
 
-.main-header,
-.wrapper,
-.main-footer {
-	padding: 50px 20%;
+header,
+.sign-up,
+.form,
+footer {
+	padding: 24px 38%;
 } 
 
 /*body*/
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 a {
 	text-decoration: none;
 }
+h2,
+p,
+h3 {
+	text-align: center;
+}
+
+/*header*/
+
+img {
+	margin: 0 7.2em 2em;
+}
+header h2 {
+	font-weight: 600;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+header p {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+/*sign-up*/
+
+span {
+	display: none;
+}
+.sign-up p {
+	border: solid 2px;
+	padding: 0.8em 3%;
+	border-radius: 0.3em;
+	color: #F8F8F8;
+	margin-bottom: 0.5em;
+}
+.facebook p {
+	background-color: #456199;
+}
+.gmail p {
+	background-color: #E14E41;
+}
+
+/*form*/
