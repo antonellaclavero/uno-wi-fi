@@ -34,7 +34,7 @@ div {
 	background-color: #FFFFFF;
 	display: block;
 	margin: 8em 0 0 2em;
-	box-shadow: #fff 0 0 0 8px, #bbbbbb 0 0 0 11px;
+	/*box-shadow: #ffffff 0 0 0 8px, #bbbbbb 0 0 0 11px;*/
 }
 
 /*header*/
