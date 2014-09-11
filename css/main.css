@@ -1,10 +1,7 @@
 /*layout*/
 
-header,
-.sign-up,
-.form,
-footer {
-	padding: 10px 15%;
+.sign-up, .form, footer {
+	padding: 10px 5%;
 } 
 
 /*body*/
@@ -19,9 +16,8 @@ body {
 a {
 	text-decoration: none;
 }
-h2,
-p,
-h3 {
+
+h2, p, h3 {
 	text-align: center;
 }
 div {
@@ -36,15 +32,17 @@ ul{
 	margin: 0;
 	padding: 0;
 }
+
 li{
 	margin-bottom: 10px;
 }
-/*header*/
 
+/*header*/
 header img {
 	float: none;
 	display: block;
-	margin: 0 auto 2em;
+	margin: 1em auto 1em;
+	max-height: 70px;
 }
 header h2 {
 	font-weight: 600;
@@ -73,11 +71,36 @@ h3 {
 	margin: 1.5em 0 0.5em 0;
 }
 
+.unowifi_logo_footer {
+	width: 28px;
+	vertical-align: middle;
+}
+
 /* Personalizo botones */
 .btn-lg {
 	border-radius: 0.1em;
 }
 
-@media (max-width: 768px) {
+/* Personalizo margenes y visibilidad por el tamaño de la pantalla */
+@media (max-width: 768px), (max-height: 560px) {
+	.container {margin-top: 3px;}
+}
+
+@media (max-height: 400px) {
+	/* Para pequeñas pantallas oculto algunas cosas */
 	.container {margin-top: 0px;}
+	.sign-up, .form, footer {
+		padding: 10px 0px;
+	} 
+	.hide_on_small_screens { display: none;}
+}
+
+@media (max-height: 320px) {
+	/* Para MUY pequeñas pantallas oculto los textos del header */
+	.container {margin-top: 0px;}
+	.sign-up, .form, footer {
+		padding: 10px 0px;
+	}
+	.hide_on_small_screens { display: none;}
+	.hide_on_very_small_screens { display: none;}
 }
