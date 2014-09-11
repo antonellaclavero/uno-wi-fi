@@ -8,14 +8,13 @@ footer {
 } 
 
 /*body*/
-
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	background: url("../images/pattern4.png");
-	background-size: repeat;
+	background: url("../images/background2.jpg");
 	background-position: center center;
-	background-color: #73D5F2;
-
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 a {
 	text-decoration: none;
@@ -32,6 +31,11 @@ div {
 	/*box-shadow: #ffffff 0 0 0 8px, #bbbbbb 0 0 0 11px;*/
 }
 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 /*header*/
 
 header img {
