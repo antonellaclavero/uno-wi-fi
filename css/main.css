@@ -16,11 +16,12 @@ footer {
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-	background: url("../images/pattern4.png");
+	/*background-color: #73D5F2;*/
+	/*background: url("../images/pattern-2.jpg");*/
+	/*background: url("../images/pattern-3.jpg");*/
+	background: url("../images/pattern.png");
 	background-size: repeat;
-	background-position: center center;
-	background-color: #73D5F2;
-
+	background-position: center center;	
 }
 a {
 	text-decoration: none;
