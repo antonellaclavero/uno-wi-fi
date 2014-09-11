@@ -4,13 +4,18 @@ header,
 .sign-up,
 .form,
 footer {
-	/* padding: 24px 38%; */
+	padding: 10px 15%;
 } 
 
 /*body*/
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	background: url("../images/pattern4.png");
+	background-size: repeat;
+	background-position: center center;
+	background-color: #73D5F2;
+
 }
 a {
 	text-decoration: none;
@@ -20,11 +25,19 @@ p,
 h3 {
 	text-align: center;
 }
+div {
+	background-color: #FFFFFF;
+	display: block;
+	margin: 8em 0 0 2em;
+	/*box-shadow: #ffffff 0 0 0 8px, #bbbbbb 0 0 0 11px;*/
+}
 
 /*header*/
 
-img {
-	margin: 0 7.2em 2em;
+header img {
+	float: none;
+	display: block;
+	margin: 0 auto 2em;
 }
 header h2 {
 	font-weight: 600;
@@ -50,9 +63,17 @@ span {
 }
 .facebook p {
 	background-color: #456199;
+	border-color: #456199;
 }
 .gmail p {
 	background-color: #E14E41;
+	border-color: #E14E41;
 }
-
-/*form*/
+.form {
+	background-color: #86A63D;
+	border-color: #86A63D;
+}
+h3 {
+	font-size: 1.2em;
+	margin: 1.5em 0 0.5em 0;
+}
