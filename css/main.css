@@ -19,9 +19,9 @@ body {
 	/*background-color: #73D5F2;*/
 	/*background: url("../images/pattern-2.jpg");*/
 	/*background: url("../images/pattern-3.jpg");*/
-	background: url("../images/pattern.png");
-	background-size: repeat;
-	background-position: center center;	
+	/*background: url("../images/pattern.png");*/		
+	/*background-size: repeat;
+	background-position: center center;*/
 }
 a {
 	text-decoration: none;
@@ -87,7 +87,23 @@ h3 {
 }
 
 /*Media Queries*/
-@media (max-width: 640px){
+@media all and (min-width: 601px) {
+    body {
+    background-image:url("../images/pattern.png");
+    /*width:200px;
+    height:75px;*/
+    }
+}
+@media all and (max-width: 600px) {
+    body {
+    background-image:url("../images/backgroundwhite.png");
+    background-size: repeat;
+
+    /*width:200px;
+    height:75px;*/
+	}
+}
+/*@media (max-width: 640px){
 	div  {
 		margin: 0 0;
 	}
