@@ -5,18 +5,81 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Uno-Wi Fi</title>
         <meta name="description" content="Uno Wi-Fi">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--link rel="stylesheet" href="css/main.css"-->
-        <!--link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'-->
-        <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+        <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"-->
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="icon" type="images" href="images/logo.png">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header>
+        <form class="form-horizontal">
+            <fieldset>
+                <legend>Complete your information</legend>
+                    <div class="form-group">
+                      <label for="inputEmail" class="col-lg-2 control-label">Name</label>
+                      <div class="col-lg-10">
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword" class="col-lg-2 control-label">Email</label>
+                      <div class="col-lg-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox">Sex
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-lg-2 control-label">Year of birthday</label>
+                      <div class="col-lg-10">
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                            Country
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="select" class="col-lg-2 control-label">Select</label>
+                      <div class="col-lg-10">
+                        <select class="form-control" id="select">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        <br>
+                        <select multiple="" class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-lg-10 col-lg-offset-2">
+                        <button class="btn btn-default">Back to sign up</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+        <!--header>
 
 
         </header>
@@ -42,4 +105,4 @@
                     <p>Send</p>
                 </li>
             </ul>
-        </section>
+        </section-->
