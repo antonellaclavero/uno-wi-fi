@@ -1,16 +1,33 @@
+/*layout*/
+
+.form-horizontal {
+	padding: 10px 27%;
+} 
+
 /*body*/
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*form*/
+
+
 /*col form*/
 
 legend {
 	text-align: center;
+	color: #0231FF;
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 0.07em;
 }
 
-.col-lg-10 {
+/*.col-lg-10 {
 	width:33.33333333%
+}*/
+label {
+	color:#0231FF;
+	font-size: 1.2em;
+	letter-spacing: 0.05em;
 }
-
