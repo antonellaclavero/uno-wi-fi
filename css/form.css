@@ -16,7 +16,7 @@ body {
 	border: solid 2px #0269E8;
 	margin: 2em auto 0;
 	padding: 16px;
-  background-color: #0269E8;
+  	/*background-color: #0269E8;*/
 }
 
 /*col form*/
@@ -32,4 +32,8 @@ label {
 	color:#0231FF;
 	font-size: 1.2em;
 	letter-spacing: 0.05em;
+	margin-top: 0;
+}
+#select {
+	margin-top: 1.5em;
 }
