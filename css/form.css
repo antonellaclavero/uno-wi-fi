@@ -1,7 +1,7 @@
 /*layout*/
 
 .form-horizontal {
-	padding: 10px 27%;
+	padding: 10px 25%;
 } 
 
 /*body*/
@@ -11,7 +11,11 @@ body {
 }
 
 /*form*/
-
+.wrapper {
+	border: solid 2px #0269E8;
+	margin: 2em auto 0;
+	padding: 2em;
+}
 
 /*col form*/
 
@@ -20,12 +24,8 @@ legend {
 	color: #0231FF;
 	font-weight: 400;
 	font-size: 2em;
-	letter-spacing: 0.07em;
+	letter-spacing: 0.05em;
 }
-
-/*.col-lg-10 {
-	width:33.33333333%
-}*/
 label {
 	color:#0231FF;
 	font-size: 1.2em;
