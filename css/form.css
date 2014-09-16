@@ -24,14 +24,17 @@ body {
   background-image:
     linear-gradient(
       to top right, 
-      #4985BF, #496BB2
+      #4985BF, 
+      #496BB2,
+      #5678BE
     );
 }
+
 /*col form*/
 
 legend {
 	text-align: center;
-	color: #0231FF;
+	color: 	#808080;
 	font-weight: 400;
 	font-size: 2em;
 	letter-spacing: 0.05em;
@@ -44,4 +47,11 @@ label {
 }
 #select {
 	margin-top: 1.5em;
+}
+
+/*button*/
+
+.btn button {
+	display: block;
+	margin: 0 auto;
 }
