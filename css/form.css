@@ -44,6 +44,9 @@ label {
 	letter-spacing: 0.05em;
 	margin-top: 0;
 }
+.form-control {
+	color: #FFFFFF;
+}
 #select {
 	margin-top: 1.5em;
 }
@@ -51,7 +54,6 @@ label {
 /*btn*/
 .btn-group-justified {
 	margin-left: 1.5em;
-	color: red;
 }
 
 
