@@ -7,18 +7,26 @@
 /*body*/
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family:'Lato', sans-serif;
+
 }
 
 /*form*/
 
 .wrapper {
-	border: solid 2px #0269E8;
+	border: solid 2px #496BB2;
 	margin: 2em auto 0;
 	padding: 16px;
   	/*background-color: #0269E8;*/
 }
-
+.wrapper,
+.gradient {
+  background-image:
+    linear-gradient(
+      to top right, 
+      #4985BF, #496BB2
+    );
+}
 /*col form*/
 
 legend {
@@ -29,8 +37,8 @@ legend {
 	letter-spacing: 0.05em;
 }
 label {
-	color:#0231FF;
-	font-size: 1.2em;
+	color: #B0B0B0;
+	font-size: 1em;
 	letter-spacing: 0.05em;
 	margin-top: 0;
 }
