@@ -16,8 +16,9 @@ body {
 .wrapper {
 	border: solid 2px #496BB2;
 	margin: 2em auto 0;
-	padding: 16px;
+	padding: 16px 20%;
   	/*background-color: #0269E8;*/
+
 }
 .wrapper,
 .gradient {
@@ -29,15 +30,13 @@ body {
       #5678BE
     );
 }
-
-/*col form*/
-
 legend {
 	text-align: center;
 	color: 	#808080;
 	font-weight: 400;
 	font-size: 2em;
 	letter-spacing: 0.05em;
+	border-bottom: none;
 }
 label {
 	color: #B0B0B0;
@@ -49,9 +48,21 @@ label {
 	margin-top: 1.5em;
 }
 
-/*button*/
+/*btn*/
+.btn-group-justified {
+	margin-right: 1.5em;
+	color: red;
+}
 
-.btn button {
+
+
+
+/*input*/
+
+/*button- revisar para que queden al medio*/
+
+/*.btn button {
 	display: block;
 	margin: 0 auto;
-}
+}*/
+
