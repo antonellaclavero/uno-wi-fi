@@ -10,25 +10,26 @@
 
 body {
 	font-family:'Lato', sans-serif;
-	/*background-color: #F4F1EE;*/
+	background-color: #F4F1EE;	
 }
 
 /*form*/
 
-.wrapper {	
+/*.wrapper {	
 	margin: 2em auto 0;
 	padding: 16px 30%;
 
-}
-section,
+}*/
+/*section,
 .gradient {
   background-image:
     linear-gradient(
       to top right,
       #4985BF, 
-      #496BB2
+      #496BB2,
+      #4C82C0
     );
-}
+}*/
 legend {
 	text-align: center;
 	color: 	#484848;
@@ -52,7 +53,7 @@ label {
 
 /*h5*/
 h5 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	text-align: center;
 }
 
