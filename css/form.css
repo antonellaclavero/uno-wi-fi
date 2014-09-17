@@ -2,39 +2,37 @@
 
 .form-horizontal {
 	padding: 10px 25%;
-} 
+	border: solid 6px #FFFFFF;
+	background-color: #ECF0F1
+}
 
 /*body*/
 
 body {
 	font-family:'Lato', sans-serif;
-	background-color: #F4F1EE;
-
+	/*background-color: #F4F1EE;*/
 }
 
 /*form*/
 
-.wrapper {
-	border: solid 6px #FFFFFF;
+.wrapper {	
 	margin: 2em auto 0;
-	padding: 16px 20%;
-	background-color: #ECF0F1;
+	padding: 16px 30%;
 
 }
-/*.wrapper,
+section,
 .gradient {
   background-image:
     linear-gradient(
       to top right,
       #4985BF, 
-      #496BB2,
-      #5678BE 
+      #496BB2
     );
-}*/
+}
 legend {
 	text-align: center;
-	color: 	#808080;
-	font-weight: 400;
+	color: 	#484848;
+	font-weight: 700;
 	font-size: 2em;
 	letter-spacing: 0.05em;
 	border-bottom: none;
@@ -52,10 +50,10 @@ label {
 	margin-top: 1.5em;
 }
 
-/*btn*/
-
-.btn-group-justified {
-	margin-left: 1.5em;
+/*h5*/
+h5 {
+	font-size: 1.5em;
+	text-align: center;
 }
 
 
