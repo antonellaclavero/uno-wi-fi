@@ -8,28 +8,29 @@
 
 body {
 	font-family:'Lato', sans-serif;
+	background-color: #F4F1EE;
 
 }
 
 /*form*/
 
 .wrapper {
-	border: solid 2px #496BB2;
+	border: solid 6px #FFFFFF;
 	margin: 2em auto 0;
 	padding: 16px 20%;
-  	/*background-color: #0269E8;*/
+	background-color: #ECF0F1;
 
 }
-.wrapper,
+/*.wrapper,
 .gradient {
   background-image:
     linear-gradient(
-      to top right, 
+      to top right,
       #4985BF, 
       #496BB2,
-      #5678BE
+      #5678BE 
     );
-}
+}*/
 legend {
 	text-align: center;
 	color: 	#808080;
@@ -39,19 +40,20 @@ legend {
 	border-bottom: none;
 }
 label {
-	color: #B0B0B0;
+	color: #484848;
 	font-size: 1em;
 	letter-spacing: 0.05em;
 	margin-top: 0;
 }
 .form-control {
-	color: #FFFFFF;
+	color: #484848;
 }
 #select {
 	margin-top: 1.5em;
 }
 
 /*btn*/
+
 .btn-group-justified {
 	margin-left: 1.5em;
 }
@@ -59,12 +61,4 @@ label {
 
 
 
-/*input*/
-
-/*button- revisar para que queden al medio*/
-
-/*.btn button {
-	display: block;
-	margin: 0 auto;
-}*/
 
