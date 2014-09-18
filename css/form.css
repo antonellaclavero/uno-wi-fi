@@ -10,8 +10,9 @@ body {
 /*Light Gray#F5F7FA #E6E9ED*/
 form,
 .form-horizontal {
-	/*background-color: #C9FFEF;*/
-	border: solid 2px #37BC9B;
+	/*background-color: #C4EEF2;*/
+	background-color: #C4EEF2;
+	border: solid 2px #537BC3;
 	border-radius: 2%;
 	opacity: 0.5;
 	padding: 20px 15%;
@@ -22,7 +23,13 @@ legend {
 	font-size: 2em;
 }
 
+
+
 /*btn genero*/
+.btn-female,
+.btn-male {
+	margin: 2em 0 2em 0;
+}
 
 .btn-female { 
   color: #999999; 
@@ -114,3 +121,17 @@ fieldset[disabled] .btn-male.active {
   color: #FFFFFF; 
   background-color: #999; 
 }
+/*btn send*/
+
+button {
+	margin-left: 6em;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-male { 
+  color: #fff;
+  background-color: #4CAF50; 
+  border-color: #DADADA; 
+} 
