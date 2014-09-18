@@ -133,3 +133,11 @@ button {
   background-color: #8CC152; 
   border-color: #DADADA; 
 } 
+/*media queries*/
+
+@media all and (max-width: 600px) {
+    form,
+    .form-horizontal {
+    margin-top: 0;
+	}
+}
