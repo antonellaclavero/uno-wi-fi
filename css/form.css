@@ -1,0 +1,116 @@
+/*body*/
+body {
+	background-color: #FFFFFF;
+}
+/*Lavender#AC92EC #967ADC*/
+/*Bittersweet#FC6E51 #E9573F*/
+/*Grapefruit#ED5565 #DA4453*/
+/*Sunflower#FFCE54 #F6BB42*/
+/*Mint#48CFAD #37BC9B*/
+/*Light Gray#F5F7FA #E6E9ED*/
+form,
+.form-horizontal {
+	/*background-color: #C9FFEF;*/
+	border: solid 2px #37BC9B;
+	border-radius: 2%;
+	opacity: 0.5;
+	padding: 20px 15%;
+	margin-top: 2em;
+}
+legend {
+	text-align: center;
+	font-size: 2em;
+}
+
+/*btn genero*/
+
+.btn-female { 
+  color: #999999; 
+  background-color: #FFFFFF; 
+  border-color: #DADADA; 
+} 
+ 
+.btn-female:hover, 
+.btn-female:focus, 
+.btn-female:active, 
+.btn-female.active, 
+.open .dropdown-toggle.btn-female { 
+  color: #fff; 
+  background-color: #F68CCB; 
+  border-color: #DADADA; 
+} 
+ 
+.btn-female:active, 
+.btn-female.active, 
+.open .dropdown-toggle.btn-female { 
+  background-image: none; 
+} 
+ 
+.btn-female.disabled, 
+.btn-female[disabled], 
+fieldset[disabled] .btn-female, 
+.btn-female.disabled:hover, 
+.btn-female[disabled]:hover, 
+fieldset[disabled] .btn-female:hover, 
+.btn-female.disabled:focus, 
+.btn-female[disabled]:focus, 
+fieldset[disabled] .btn-female:focus, 
+.btn-female.disabled:active, 
+.btn-female[disabled]:active, 
+fieldset[disabled] .btn-female:active, 
+.btn-female.disabled.active, 
+.btn-female[disabled].active, 
+fieldset[disabled] .btn-female.active { 
+  background-color: #FFFFFF; 
+  border-color: #DADADA; 
+} 
+ 
+.btn-female .badge { 
+  color: #FFFFFF; 
+  background-color: #999999; 
+}
+.btn-male { 
+  color: #999; 
+  background-color: #FFFFFF; 
+  border-color: #DADADA; 
+} 
+ 
+.btn-male:hover, 
+.btn-male:focus, 
+.btn-male:active, 
+.btn-male.active, 
+.open .dropdown-toggle.btn-male { 
+  color: #fff;
+  background-color: #009DDC; 
+  border-color: #DADADA; 
+} 
+ 
+.btn-male:active, 
+.btn-male.active, 
+.open .dropdown-toggle.btn-male { 
+  background-image: none; 
+} 
+ 
+.btn-male.disabled, 
+.btn-male[disabled], 
+fieldset[disabled] .btn-male, 
+.btn-male.disabled:hover, 
+.btn-male[disabled]:hover, 
+fieldset[disabled] .btn-male:hover, 
+.btn-male.disabled:focus, 
+.btn-male[disabled]:focus, 
+fieldset[disabled] .btn-male:focus, 
+.btn-male.disabled:active, 
+.btn-male[disabled]:active, 
+fieldset[disabled] .btn-male:active, 
+.btn-male.disabled.active, 
+.btn-male[disabled].active, 
+fieldset[disabled] .btn-male.active { 
+  background-color: #FFFFFF; 
+  border-color: #DADADA; 
+} 
+ 
+.btn-male .badge { 
+  color: #FFFFFF; 
+  background-color: #999; 
+}
