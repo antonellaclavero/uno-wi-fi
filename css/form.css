@@ -2,15 +2,9 @@
 body {
 	background-color: #FFFFFF;
 }
-/*Lavender#AC92EC #967ADC*/
-/*Bittersweet#FC6E51 #E9573F*/
-/*Grapefruit#ED5565 #DA4453*/
-/*Sunflower#FFCE54 #F6BB42*/
-/*Mint#48CFAD #37BC9B*/
-/*Light Gray#F5F7FA #E6E9ED*/
+
 form,
 .form-horizontal {
-	/*background-color: #C4EEF2;*/
 	background-color: #ECF0F1;
 	border: solid 2px #FC6E51;
 	border-radius: 1%;
@@ -22,10 +16,12 @@ legend {
 	text-align: center;
 	font-size: 2em;
 }
-
-
+#select {
+	margin-top: 1em;
+}
 
 /*btn genero*/
+
 .btn-female,
 .btn-male {
 	margin: 2em 0 2em 0;
