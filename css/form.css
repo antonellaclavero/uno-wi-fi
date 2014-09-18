@@ -11,12 +11,12 @@ body {
 form,
 .form-horizontal {
 	/*background-color: #C4EEF2;*/
-	background-color: #C4EEF2;
-	border: solid 2px #537BC3;
-	border-radius: 2%;
-	opacity: 0.5;
+	background-color: #ECF0F1;
+	border: solid 2px #FC6E51;
+	border-radius: 1%;
+	opacity: 0.7;
 	padding: 20px 15%;
-	margin-top: 2em;
+	margin-top: 9em;
 }
 legend {
 	text-align: center;
