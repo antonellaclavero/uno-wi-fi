@@ -13,10 +13,14 @@ form,
 	padding: 20px 15%;
 	margin-top: 6em;
 }
+img{
+	margin: 0;
+}
 legend {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
 }
+
 #select {
 	margin-top: 1em;
 }
@@ -25,7 +29,7 @@ legend {
 
 .btn-female,
 .btn-male {
-	margin: 2em 0 2em 0;
+	margin: 0.5em 0 1em 0;
 }
 
 .btn-female { 
@@ -120,10 +124,12 @@ fieldset[disabled] .btn-male.active {
   color: #FFFFFF; 
   background-color: #999; 
 }
+
 /*btn send*/
 
-button {
-	margin-left: 6em;
+.btn-primary {
+	margin-left: 4em;
+	margin-top: 1em;
 }
 .btn-primary:hover, 
 .btn-primary:focus, 
@@ -134,11 +140,26 @@ button {
   background-color: #4CAF50; 
   border-color: #DADADA; 
 } 
+
+/*slider*/
+
+/*.slider-bar{
+        display:block; 
+        width:80px; 
+        background-color:darkred; 
+        position:relative;
+}
+.slider, .slider-bar{
+    height:30px;
+}*/
+
 /*media queries*/
 
 @media all and (max-width: 600px) {
     form,
     .form-horizontal {
     margin-top: 0;
+    margin-left: 1em;
 	}
+
 }
