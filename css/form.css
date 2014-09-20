@@ -12,13 +12,19 @@ form,
 	border-radius: 0.5%;
 	/*opacity: 0.7;*/
 	padding: 20px 15%;
-	margin-top: 6em;
+	margin-top: 2em;
 }
-.form-control {
-	border-radius: 1.5%;
+.form-group .control-label {
+ padding-top: 3px;
 }
-.form-control, input {
-	margin-bottom: -1em;
+select.form-control,
+.btn-lg,
+.btn-group-lg {
+	border-radius: 1%;
+}
+.form-control, 
+input {
+	margin-bottom: -0.5em;
 }
 .page-header h1 {
 	text-align: center;
@@ -34,7 +40,7 @@ form,
 
 .btn-female,
 .btn-male {
-	margin: 1em 0 1em 0;
+	margin: 0.5em 0 1em 0;
 	border-radius: 2%;
 }
 
