@@ -15,7 +15,10 @@ form,
 	margin-top: 6em;
 }
 .form-control {
-	border-radius: 0.5%;
+	border-radius: 1.5%;
+}
+.form-control, input {
+	margin-bottom: -1em;
 }
 .page-header h1 {
 	text-align: center;
@@ -31,7 +34,7 @@ form,
 
 .btn-female,
 .btn-male {
-	margin: 0.5em 0 1em 0;
+	margin: 1em 0 1em 0;
 	border-radius: 2%;
 }
 
@@ -127,7 +130,34 @@ fieldset[disabled] .btn-male.active {
   color: #FFFFFF; 
   background-color: #999; 
 }
-
+/*flags img*/
+/*.flags li {
+	display: inline-block;
+	margin: 0 1em;
+}
+.flags  span {
+	background: url("../images/flags.png");
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+.flags p,
+span {
+	display: none;
+}
+p.argentina {
+background-position: 0px 0px;
+}
+p.brasil {
+background-position: 0px -26px;
+}
+p.chile {
+background-position: 0px -52px;
+}
+p.uruguay {
+background-position: 0px -78px;
+}
+*/
 /*btn send*/
 
 .btn-primary {

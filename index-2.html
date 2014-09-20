@@ -39,26 +39,20 @@
   <div class="container">
     <div class="row" >
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3" id="cards">
-
         <form class="form-horizontal">
           <fieldset>
             <div class="page-header">
-              <h1>Complete this form get Internet for free!</h1>
+              <h1>Complete this form to get Internet for free!</h1>
             </div>
             <!--legend>Complete this form get Internet for free!</legend-->
-              <div class="form-group">
-                <div class="input-group">
-                  <div class="input-group-addon">Name</div>
-                  <input class="form-control" type="name" placeholder="Name">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="input-group">
-                  <div class="input-group-addon">Email</div>
-                  <input class="form-control" type="email" placeholder="Enter email">
-                </div>
-              </div>
-            
+            <div class="form-group">
+              <label class="control-label" for="focusedInput">Name</label>
+              <input class="form-control" id="focusedInput" type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="focusedInput">Email</label>
+              <input class="form-control" id="focusedInput" type="text" placeholder="Email">
+            </div>
             <div class="btn-group btn-group-justified" data-toggle="buttons-radio">
               <div class="btn-group">
                 <button type="button" class="btn btn-lg btn-male"><i class="fa fa-male"></i>Male</button>
@@ -69,29 +63,44 @@
             </div>
             
             <div class="form-group">
+              <!--ul class="flags">
+                  <li>
+                      <p class="argentina">Argentina</p>
+                      <span>Argentina</span>
+                  </li>
+                  <li>
+                      <p class="brasil">Brasil</p>
+                      <span>Brasil</span>
+                  </li>
+                  <li>
+                    <p class="chile">Chile</p>
+                    <span>Chile</span>
+                  </li>
+                  <li>
+                    <p class="uruguay">Uruguay</p>
+                    <span>Uruguay</span>
+                  </li>
+                </ul-->
               <label for="disabledSelect">Select your country</label>
                 <select id="disabledSelect" class="form-control">
-                  <option>Uruguay</option>
                   <option>Argentina</option>
                   <option>Brasil</option>
                   <option>Chile</option>
+                  <option>Uruguay</option>
                 </select>
             </div>
             <div class="form-group">
               <label for="disabledSelect">Other countries</label>
                 <select id="disabledSelect" class="form-control">
-                  <option>Perú</option>
+                  <option>EEUU</option>
                   <option>México</option>
                   <option>Paraguay</option>
-                  <option>EEUU</option>
+                  <option>Perú</option>
                 </select>
             </div>
             <div class="form-group">
               <div class="col-lg-10 col-lg-offset-2">
                 <a href="#" class="btn btn-primary btn-lg">Send</a>
-                <!--button type="submit" class="btn btn-primary btn-group-lg">
-                  Send
-                </button-->
               </div>
             </div>
           </fieldset>
