@@ -17,7 +17,7 @@ form,
  padding-top: 3px;
 }
 label {
-	margin-left: 4.5em;
+	margin-left: 2em;
 }
 select.form-control,
 .btn-lg,
@@ -25,9 +25,9 @@ select.form-control,
 	border-radius: 1%;
 }
 .form-control {
-	width: 60%;
-	margin-left: 4.5em;
-
+	width: 80%;
+	margin-left: 2em;
+  height: 35px;
 }
 .form-control, 
 input {
@@ -36,22 +36,20 @@ input {
 .page-header h1 {
 	text-align: center;
 	font-size: 1.7em;
-	margin: 0;
-}
-
-#select {
-	margin-top: 1em;
+	margin: 1em 0 1em 0;
 }
 
 /*btn genero*/
 .btn-group-justified.btn-group .btn {
-  width: 50%;
+  width: 80%;
 }
 .btn-female,
 .btn-male {
 	margin: 0.5em 0 1em 0;
 	border-radius: 0.2em;
   padding: 0.5em 3%;
+  float: none;
+  text-align: center;
 }
 
 .btn-female { 
