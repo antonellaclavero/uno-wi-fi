@@ -210,11 +210,12 @@ background-position: 0px -78px;
 /*media queries*/
 
 @media all and (max-width: 600px) {
+    body {
+      background-color: #FFFFFF;
+    }
     form,
     .form-horizontal {
     margin-top: 0;
     margin-left: 1em;
-    background-color: #FFFFFF;
 	}
-
 }
