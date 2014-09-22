@@ -17,10 +17,18 @@ form,
 .form-group .control-label {
  padding-top: 3px;
 }
+label {
+	margin-left: 2em;
+}
 select.form-control,
 .btn-lg,
 .btn-group-lg {
 	border-radius: 1%;
+}
+.form-control {
+	width: 80%;
+	margin-left: 2em;
+
 }
 .form-control, 
 input {
