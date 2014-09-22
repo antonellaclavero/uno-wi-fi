@@ -212,6 +212,9 @@ background-position: 0px -78px;
 @media all and (max-width: 600px) {
     form,
     .form-horizontal {
-    margin: 0;	
-  }
+    margin-top: 0;
+    margin-left: 1em;
+    background-color: #FFFFFF;
+	}
+
 }
