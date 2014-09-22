@@ -179,7 +179,9 @@ background-position: 0px -78px;
 
 .btn-primary {
 	margin-left: 3.5em;
-	margin-top: 1em;
+	margin-top: 0.5em;
+  background-color: #60af00;
+  border-color: #60af00;
 }
 .btn-primary:hover, 
 .btn-primary:focus, 
@@ -187,7 +189,7 @@ background-position: 0px -78px;
 .btn-primary.active, 
 .open .dropdown-toggle.btn-primary { 
   color: #fff;
-  background-color: #4CAF50; 
+  background-color: #60af00; 
   border-color: #DADADA; 
 } 
 
