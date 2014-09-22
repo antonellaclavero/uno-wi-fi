@@ -36,7 +36,7 @@ input {
 }
 .page-header h1 {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.7em;
 	margin: 0;
 }
 
@@ -60,7 +60,9 @@ input {
   background-color: #FFFFFF; 
   border-color: #DADADA; 
 } 
- 
+.btn-male {
+  margin-left: 2em;
+}
 .btn-female:hover, 
 .btn-female:focus, 
 .btn-female:active, 
@@ -210,8 +212,6 @@ background-position: 0px -78px;
 @media all and (max-width: 600px) {
     form,
     .form-horizontal {
-    margin-top: 0;
-    margin-left: 1em;
-	}
-
+    margin: 0;	
+  }
 }
