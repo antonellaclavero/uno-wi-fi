@@ -55,9 +55,6 @@ input {
   color: #999999; 
   background-color: #FFFFFF; 
   border-color: #DADADA; 
-} 
-.btn-male {
-  margin-left: 2em;
 }
 .btn-female:hover, 
 .btn-female:focus, 
@@ -65,8 +62,8 @@ input {
 .btn-female.active, 
 .open .dropdown-toggle.btn-female { 
   color: #fff; 
-  /*background-color: #F68CCB;*/
-  background-color: #DA4453;
+  background-color: #D770AD;
+  /*background-color: #DA4453;*/
   border-color: #DADADA; 
 } 
  
@@ -111,8 +108,8 @@ fieldset[disabled] .btn-female.active {
 .btn-male.active, 
 .open .dropdown-toggle.btn-male { 
   color: #fff;
-  /*background-color: #009DDC;*/
-  background-color: #4A89DC;
+  background-color: #009DDC;
+  /*background-color: #4A89DC;*/
   border-color: #DADADA; 
 } 
  
@@ -145,47 +142,13 @@ fieldset[disabled] .btn-male.active {
   color: #FFFFFF; 
   background-color: #999; 
 }
-/*flags img*/
-/*.flags li {
-	display: inline-block;
-	margin: 0 1em;
-}
-.flags  span {
-	background: url("../images/flags.png");
-	width: 16px;
-	height: 16px;
-	display: block;
-}
-.flags p,
-span {
-	display: none;
-}
-p.argentina {
-background-position: 0px 0px;
-}
-p.brasil {
-background-position: 0px -26px;
-}
-p.chile {
-background-position: 0px -52px;
-}
-p.uruguay {
-background-position: 0px -78px;
-}
-*/
 /*btn send*/
-
-.btn-primary {
-	margin-left: 3.5em;
-	margin-top: 0.5em;
-  background-color: #60af00;
-  border-color: #60af00;
 }
-.btn-primary:hover, 
-.btn-primary:focus, 
-.btn-primary:active, 
-.btn-primary.active, 
-.open .dropdown-toggle.btn-primary { 
+.btn-block:hover, 
+.btn-block:focus, 
+.btn-block:active, 
+.btn-block.active, 
+.open .dropdown-toggle.btn-block { 
   color: #fff;
   background-color: #60af00; 
   border-color: #DADADA; 
