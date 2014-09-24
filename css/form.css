@@ -22,13 +22,14 @@ select.form-control,
 .form-control, 
 input {
 	margin-bottom: -0.5em;
+  border-width: 1px;
 }
+
 .page-header {
   background-color: #009ddc;
   margin-bottom: 0;
   padding: 4px 15%;
   border-radius: 0.2em 0.2em 0 0;
-  border-bottom: none;
 }
 .page-header h1 {
 	text-align: center;
@@ -36,10 +37,16 @@ input {
   color: #FFFFFF;
 	margin: 0.5em 0 0.5em 0;
 }
+label {
+  margin-bottom: 2px;
+}
 
 /*btn genero*/
 .btn-group-justified.btn-group .btn {
   width: 100%;
+}
+.fa {
+  padding-right: 4px;
 }
 .btn-female,
 .btn-male {
@@ -60,9 +67,9 @@ input {
 .btn-female:active, 
 .btn-female.active, 
 .open .dropdown-toggle.btn-female { 
-  color: #fff; 
-  background-color: #D770AD;
-  /*background-color: #DA4453;*/
+  color: #fff;
+  background-color: #FF3399; 
+  /*background-color: #D770AD;*/
   border-color: #DADADA; 
 } 
  
@@ -100,7 +107,6 @@ fieldset[disabled] .btn-female.active {
   background-color: #FFFFFF; 
   border-color: #DADADA; 
 } 
- 
 .btn-male:hover, 
 .btn-male:focus, 
 .btn-male:active, 
@@ -142,7 +148,12 @@ fieldset[disabled] .btn-male.active {
   background-color: #999; 
 }
 /*btn send*/
-}
+.btn-block { 
+  color: #fff; 
+  background-color: #99cc00; 
+  border-color: #DADADA; 
+  margin-top: 2em;
+} 
 .btn-block:hover, 
 .btn-block:focus, 
 .btn-block:active, 
