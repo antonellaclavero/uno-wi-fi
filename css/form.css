@@ -2,13 +2,19 @@
 body {
 	background-color: #ECF0F1;
 }
-/*form*/
 
+/*form*/
+/*.col-md-offset-3 {
+  margin-left: 33.3%;
+}
+.col-md-6 {
+  max-width: 33.3%
+}*/
 form,
 .form-horizontal {
 	background-color: #FFFFFF;
 	border-radius: 0.5%;
-	padding: 4px 15%;
+	padding: 4px 10%;
 }
 select.form-control,
 .btn-lg,
