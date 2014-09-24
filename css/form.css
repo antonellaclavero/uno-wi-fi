@@ -165,14 +165,22 @@ fieldset[disabled] .btn-male.active {
 } 
 
 /*media queries*/
+.col-md-6,
+.col-sm-8,
+.col-xs-12 {
+  padding: 0;
+}
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 640px) {
     body {
       background-color: #FFFFFF;
     }
     form,
     .form-horizontal {
     margin-top: 0;
-    margin-left: 1em;
+    margin-left: 2em;
 	}
+  .page-header {
+    margin: 0;
+  }
 }
