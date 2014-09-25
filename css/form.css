@@ -48,7 +48,9 @@ input {
 label {
   margin-bottom: 2px;
 }
-
+option {
+  margin: 0;
+}
 /*btn genero*/
 .btn-group-justified.btn-group .btn .btn-male{
   width: 100%;
