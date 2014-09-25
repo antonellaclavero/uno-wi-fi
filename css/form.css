@@ -50,6 +50,7 @@ label {
 }
 option {
   margin: 0;
+  padding: 0;
 }
 /*btn genero*/
 .btn-group-justified.btn-group .btn .btn-male{
