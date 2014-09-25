@@ -16,6 +16,9 @@ footer {
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	 background: url("../images/background2.jpg");
+  	 background-size: cover;
+  	 background-position: center center;
 }
 a {
 	text-decoration: none;
