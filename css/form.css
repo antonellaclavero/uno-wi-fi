@@ -197,4 +197,7 @@ fieldset[disabled] .btn-male.active {
   .page-header {
     margin: 0;
   }
+  .btn-block {
+    margin-top: 0.5em;
+  }
 }
