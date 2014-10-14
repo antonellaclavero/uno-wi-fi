@@ -1,5 +1,16 @@
+.row {
+	margin: 0;
+}
 .card-left {
 	width: 100%;
 	max-width: 825px;
 	margin: auto;
+}
+p {
+	padding: 29px 19%;
+	margin: 0;
+}
+img {
+	width: 400px;
+	height: 430px;
 }
