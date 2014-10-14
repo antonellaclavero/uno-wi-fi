@@ -1,0 +1,74 @@
+/*generico*/
+p {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.lead {
+	text-align: left;
+	margin-top: 6px;
+}
+.card .card-heading {
+	text-align: center;
+}
+.card .card-heading.image .card-heading-header h3 {
+	font-size: 18px;
+	line-height:16px;
+	margin-top: 0;
+}
+.card .card-heading.image .card-heading-header span {
+	display: none;
+}
+
+/*Estilos para clase .title-text-img*/
+
+.title-text-img .card .card-heading.image img {
+	display: none;
+}
+.title-text-img .card .card-heading.image .card-heading-header h3 {
+	text-transform: uppercase;
+}
+
+/*Estilos para cards de clase .text-and-image*/
+
+.text-and-img .card .card-body {
+padding: 2px 20px;
+}
+.text-and-img .card {
+	padding-top: 9px;
+}
+.text-and-img .card-heading.image img {
+display: none;
+}
+.text-and-img span {
+display: none;
+}
+.text-and-img .card-heading {
+display: none;
+}
+.text-and-img p {
+text-align: justify;
+padding: 0% 6px;
+}
+
+/*Estilos para cards de clase title-and-img*/
+
+.title-and-img h3 {
+text-align: center;
+margin-top: 13px;
+text-transform: uppercase;
+}
+
+/*Estilos para cards solo texto*/
+.only-text .card-body {
+	margin-top: 10px;
+}
+.only-text p {
+	text-align: center;
+	line-height: 22px;
+}
+
+/*Estilos para cards solo img*/
+
+.only-img .card-heading.image img {
+display: none;
+}
