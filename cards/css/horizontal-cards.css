@@ -7,10 +7,19 @@
 	margin: auto;
 }
 p {
-	padding: 29px 19%;
-	margin: 0;
+	margin-left: 4em;
+	margin-top: 2em;
+	text-align: justify;
+	padding-left: 24%;
 }
 img {
-	width: 400px;
-	height: 430px;
+	max-width: 400px;
+	max-height: 430px;
+	margin-top: 2em;
+}
+.button {
+	float: right;
+}
+.btn-primary .btn-share{
+	background-color: red;
 }
