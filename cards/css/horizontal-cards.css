@@ -1,5 +1,9 @@
+body {
+	background-color: #ECF0F1;
+}
 .row {
 	margin: 0;
+	background-color: #FFFFFF;
 }
 .card-left {
 	width: 100%;
@@ -20,6 +24,27 @@ img {
 .button {
 	float: right;
 }
-.btn-primary .btn-share{
-	background-color: red;
+.btn-share,
+.btn-access {
+	border-radius: 0.2em;
 }
+.btn-share {
+	background-color: #46629E;
+	border-color: #46629E;
+}
+.btn-share:hover {
+	background-color: #4469AA;
+	border-color: #FFFFFF;
+}
+.btn-access {
+	background-color: #5aac41;
+	border-color: #5aac41;
+}
+.btn-access:hover {
+	background-color: #60af00;
+	border-color: #FFFFFF; 
+}
+
+
+
+
