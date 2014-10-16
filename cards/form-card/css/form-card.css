@@ -1,3 +1,20 @@
-.form-control {
+body {
+	background-color: #21A1B7;
+	width: 35%;
+}
+fieldset {
+	max-width: 75%
+}
+/*.form-control {
 	max-width: 30%;
+}*/
+legend {
+	text-align: center;
+	color: #ebebeb;
+	margin-left: 11em;
+	border-bottom: none;
+	margin-top: 2em;
+}
+select {
+	border-radius: 0.11em;
 }
