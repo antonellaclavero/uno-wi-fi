@@ -58,6 +58,15 @@ option {
   padding: 0;
 }
 /*btn genero*/
+.btn-group-justified {
+  width: 106%;
+}
+.btn-group>.btn:first-child {
+  margin-left: -15px;
+}
+/*.btn-group-justified>.btn-group .btn {
+  width: 105%;
+}*/
 .btn-group-justified.btn-group .btn .btn-male {
   width: 100%;
 }
