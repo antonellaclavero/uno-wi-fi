@@ -1,11 +1,11 @@
 /*body*/
 
 body {
-	background-color: #21A1B7;
+	background-color: #FFFFFF;
 }
 /*layout*/
 fieldset {
-	background-color: white;
+	background-color: #21A1B7;
 }
 legend {
 	text-align: center;
@@ -23,8 +23,8 @@ label {
 
 /*input*/
 .form-control, input {
-	margin-left: 2em;
-	width: 40%;
+	margin-left: 4.7em;
+	width: 70%;
 }
 
 /*btn submit*/
@@ -32,7 +32,8 @@ label {
 	color: #ffffff;
 	background-color: #FF9900;
 	border-color: #FF9900;
-	margin-left: 2em;
+	margin-left: 1em;
+	width: 40%;
 }
 .btn-primary:hover {
 	background-color: #FF6600;
