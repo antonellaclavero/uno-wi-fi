@@ -18,3 +18,8 @@ legend {
 select {
 	border-radius: 0.11em;
 }
+.btn-primary {
+	color: #ffffff;
+	background-color: #FF9900;
+	border-color: #FF9900;
+}
