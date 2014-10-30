@@ -47,13 +47,34 @@ label {
 }
 .btn-primary:hover {
 	background-color: #FF6600;
-	border-color: #FFFFFF;
+	border-color: #FF6600;
 }
 
 /*footer card*/
+
 .card-actions {
 min-height: 30px;
 padding: 0 20px 20px;
 margin: 20px 0 0;
 background-color: #FFFFFF;
+}
+/*btn share*/
+span {
+	display: none;
+}
+a.btn-lg {
+padding: 0 25px;
+height: 30px;
+min-height: 30px;
+line-height: 30px;
+margin: 1em 0 0 2em;
+}
+.card-actions a {
+background: url("../images/btn-share.png");
+width: 35%;
+border-color: #133783;
+}
+.btn-lg:hover {
+	background-color: #133783;
+	border-color: #FFFFFF;
 }
