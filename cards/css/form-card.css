@@ -1,11 +1,21 @@
 /*body*/
 
 body {
-	background-color: #FFFFFF;
+	background-color: #e5e5e5;
 }
+/*header*/
+
+img {
+	width: 450px;
+	height: 200px; 
+	margin-left: 1em;
+	margin-bottom: 2em;
+}
+
 /*layout*/
+
 fieldset {
-	background-color: #21A1B7;
+	background-color: #21A1B7; 
 }
 legend {
 	text-align: center;
@@ -38,4 +48,12 @@ label {
 .btn-primary:hover {
 	background-color: #FF6600;
 	border-color: #FFFFFF;
+}
+
+/*footer card*/
+.card-actions {
+min-height: 30px;
+padding: 0 20px 20px;
+margin: 20px 0 0;
+background-color: #FFFFFF;
 }
