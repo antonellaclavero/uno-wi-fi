@@ -61,6 +61,31 @@ img {
 	border-color: #FFFFFF; 
 }
 
+/*media queries*/
+
+@media (max-width: 640px){
+	p  {
+		margin-left: 0;
+		padding: 0;
+		margin-top: 1em;
+	}
+	.button {
+		float: left;
+	}
+}
+/*@media (max-width: 568px){
+	div  {
+		margin: 0.5em 0;
+	}
+}
+@media (max-width: 480px){
+	div {
+		margin: 0 0;
+}
+@media (max-width: 360px){
+	div {
+		margin: 1em 0;
+}*/
 
 
 
